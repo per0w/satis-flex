@@ -1,0 +1,16 @@
+version: '3.6'
+services:
+  satis:
+    container_name: satis
+    build: ./docker/satis/
+    image: satis:1.0.0
+    ports:
+      - '8100:80'
+    volumes:
+      - ./data/repo_satis:/www/satis/html
+  flex:
+    container_name: flex
+    build: ./docker/flex/
+    image: flex:1.0.1
+    ports:
+      - '8200:8000'
