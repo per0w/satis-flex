@@ -1,5 +1,3 @@
-![omg](https://media.giphy.com/media/JsQpcSU2l5NdK/giphy.gif)
-
 # Satis and Symfony Flex
 
 `Satis` is a simple static Composer repository generator. \
